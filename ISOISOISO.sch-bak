@@ -1,0 +1,1178 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Crystal_GND24_Small Y1
+U 1 1 59E55B9D
+P 1275 1525
+F 0 "Y1" V 1250 1675 50  0000 L CNN
+F 1 "16MHz" V 1325 1675 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering" H 1275 1525 50  0001 C CNN
+F 3 "" H 1275 1525 50  0001 C CNN
+	1    1275 1525
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 59E55C20
+P 950 1375
+F 0 "C1" V 850 1300 50  0000 L CNN
+F 1 "22p" V 850 1425 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 950 1375 50  0001 C CNN
+F 3 "" H 950 1375 50  0001 C CNN
+	1    950  1375
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 59E55D4D
+P 950 1675
+F 0 "C2" V 850 1600 50  0000 L CNN
+F 1 "22p" V 850 1725 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 950 1675 50  0001 C CNN
+F 3 "" H 950 1675 50  0001 C CNN
+	1    950  1675
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 59E55E19
+P 1150 1725
+F 0 "#PWR01" H 1150 1475 50  0001 C CNN
+F 1 "GND" H 1150 1575 50  0000 C CNN
+F 2 "" H 1150 1725 50  0001 C CNN
+F 3 "" H 1150 1725 50  0001 C CNN
+	1    1150 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 59E56F4D
+P 1475 1225
+F 0 "R1" V 1550 1250 50  0000 L CNN
+F 1 "10k" V 1550 1100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 1475 1225 50  0001 C CNN
+F 3 "" H 1475 1225 50  0001 C CNN
+	1    1475 1225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 59E5754C
+P 1275 1225
+F 0 "#PWR03" H 1275 1075 50  0001 C CNN
+F 1 "+5V" V 1350 1300 50  0000 C CNN
+F 2 "" H 1275 1225 50  0001 C CNN
+F 3 "" H 1275 1225 50  0001 C CNN
+	1    1275 1225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 59E57FE4
+P 1475 2525
+F 0 "C3" V 1350 2400 50  0000 L CNN
+F 1 "1uF" V 1350 2525 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1475 2525 50  0001 C CNN
+F 3 "" H 1475 2525 50  0001 C CNN
+	1    1475 2525
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 59E58833
+P 1275 2525
+F 0 "#PWR04" H 1275 2275 50  0001 C CNN
+F 1 "GND" V 1275 2325 50  0000 C CNN
+F 2 "" H 1275 2525 50  0001 C CNN
+F 3 "" H 1275 2525 50  0001 C CNN
+	1    1275 2525
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 59E5900C
+P 3400 6050
+F 0 "R2" V 3325 5925 50  0000 L CNN
+F 1 "22" V 3325 6050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 3400 6050 50  0001 C CNN
+F 3 "" H 3400 6050 50  0001 C CNN
+	1    3400 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 59E59519
+P 3400 6150
+F 0 "R3" V 3325 6025 50  0000 L CNN
+F 1 "22" V 3325 6150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 3400 6150 50  0001 C CNN
+F 3 "" H 3400 6150 50  0001 C CNN
+	1    3400 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 59E5C05A
+P 2600 5750
+F 0 "F1" V 2525 5625 50  0000 C CNN
+F 1 "500mA" V 2525 5825 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2650 5550 50  0001 L CNN
+F 3 "" H 2600 5750 50  0001 C CNN
+	1    2600 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR08
+U 1 1 59E5C9FB
+P 2925 5750
+F 0 "#PWR08" H 2925 5600 50  0001 C CNN
+F 1 "+5V" H 2925 5890 50  0000 C CNN
+F 2 "" H 2925 5750 50  0001 C CNN
+F 3 "" H 2925 5750 50  0001 C CNN
+	1    2925 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 59E5EC47
+P 2375 4850
+F 0 "#PWR010" H 2375 4600 50  0001 C CNN
+F 1 "GND" H 2375 4700 50  0000 C CNN
+F 2 "" H 2375 4850 50  0001 C CNN
+F 3 "" H 2375 4850 50  0001 C CNN
+	1    2375 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR011
+U 1 1 59E5EF79
+P 2375 825
+F 0 "#PWR011" H 2375 675 50  0001 C CNN
+F 1 "+5V" H 2375 965 50  0000 C CNN
+F 2 "" H 2375 825 50  0001 C CNN
+F 3 "" H 2375 825 50  0001 C CNN
+	1    2375 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 59E647C2
+P 3800 3325
+F 0 "R5" V 3725 3225 50  0000 L CNN
+F 1 "10k" V 3725 3350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 3800 3325 50  0001 C CNN
+F 3 "" H 3800 3325 50  0001 C CNN
+	1    3800 3325
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 59E64F31
+P 4000 3325
+F 0 "#PWR013" H 4000 3075 50  0001 C CNN
+F 1 "GND" H 4000 3175 50  0000 C CNN
+F 2 "" H 4000 3325 50  0001 C CNN
+F 3 "" H 4000 3325 50  0001 C CNN
+	1    4000 3325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1375 1275 1375
+Wire Wire Line
+	1275 1375 1275 1425
+Wire Wire Line
+	1275 1625 1275 1675
+Wire Wire Line
+	1050 1675 1275 1675
+Connection ~ 1275 1675
+Wire Wire Line
+	1875 1425 1575 1425
+Wire Wire Line
+	1575 1425 1575 1375
+Connection ~ 1275 1375
+Wire Wire Line
+	1150 1525 1150 1725
+Wire Wire Line
+	850  1725 1150 1725
+Wire Wire Line
+	1400 1725 1400 1525
+Wire Wire Line
+	850  1375 850  1675
+Connection ~ 1150 1725
+Connection ~ 850  1675
+Wire Wire Line
+	1875 1225 1750 1225
+Wire Wire Line
+	1275 1225 1375 1225
+Wire Wire Line
+	1575 2525 1875 2525
+Wire Wire Line
+	1275 2525 1375 2525
+Wire Wire Line
+	2375 825  2375 925 
+Wire Wire Line
+	3075 3325 3700 3325
+Wire Wire Line
+	4000 3325 3900 3325
+Text Notes 7350 7500 0    60   ~ 0
+Mir Keyboard\n
+Text Notes 8125 7650 0    60   ~ 0
+2018-11-28
+$Comp
+L Device:C_Small C4
+U 1 1 59E71603
+P 1250 3425
+F 0 "C4" H 1260 3495 50  0000 L CNN
+F 1 "0.1u" H 1260 3345 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1250 3425 50  0001 C CNN
+F 3 "" H 1250 3425 50  0001 C CNN
+	1    1250 3425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 59E7418D
+P 1450 3425
+F 0 "C5" H 1460 3495 50  0000 L CNN
+F 1 "0.1u" H 1460 3345 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1450 3425 50  0001 C CNN
+F 3 "" H 1450 3425 50  0001 C CNN
+	1    1450 3425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 59E7422A
+P 1650 3425
+F 0 "C6" H 1660 3495 50  0000 L CNN
+F 1 "10u" H 1660 3345 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1650 3425 50  0001 C CNN
+F 3 "" H 1650 3425 50  0001 C CNN
+	1    1650 3425
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 3325 1450 3325
+Connection ~ 1450 3325
+Wire Wire Line
+	1250 3525 1450 3525
+Connection ~ 1450 3525
+$Comp
+L power:+5V #PWR022
+U 1 1 59E74DA6
+P 1450 3225
+F 0 "#PWR022" H 1450 3075 50  0001 C CNN
+F 1 "+5V" H 1450 3365 50  0000 C CNN
+F 2 "" H 1450 3225 50  0001 C CNN
+F 3 "" H 1450 3225 50  0001 C CNN
+	1    1450 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3225 1450 3325
+$Comp
+L power:GND #PWR023
+U 1 1 59E74EEB
+P 1450 3625
+F 0 "#PWR023" H 1450 3375 50  0001 C CNN
+F 1 "GND" H 1450 3475 50  0000 C CNN
+F 2 "" H 1450 3625 50  0001 C CNN
+F 3 "" H 1450 3625 50  0001 C CNN
+	1    1450 3625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3625 1450 3525
+Wire Wire Line
+	1700 900  1750 900 
+Wire Wire Line
+	1750 900  1750 1225
+Connection ~ 1750 1225
+$Comp
+L power:GND #PWR024
+U 1 1 59E7870E
+P 1200 900
+F 0 "#PWR024" H 1200 650 50  0001 C CNN
+F 1 "GND" V 1200 700 50  0000 C CNN
+F 2 "" H 1200 900 50  0001 C CNN
+F 3 "" H 1200 900 50  0001 C CNN
+	1    1200 900 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 900  1300 900 
+Text Notes 10550 7650 0    60   ~ 0
+1.0
+Wire Wire Line
+	1275 1675 1575 1675
+Wire Wire Line
+	1275 1375 1575 1375
+Wire Wire Line
+	1150 1725 1400 1725
+Wire Wire Line
+	850  1675 850  1725
+Wire Wire Line
+	1450 3325 1650 3325
+Wire Wire Line
+	1450 3525 1650 3525
+Wire Wire Line
+	1750 1225 1575 1225
+$Comp
+L Type_C:HRO-TYPE-C-31-M-12 USB1
+U 1 1 5C0D1FF1
+P 1425 6200
+F 0 "USB1" H 1256 6997 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" H 1256 6891 60  0000 C CNN
+F 2 "Type-C:HRO-TYPE-C-31-M-12-Assembly" H 1425 6200 60  0001 C CNN
+F 3 "" H 1425 6200 60  0001 C CNN
+	1    1425 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1525 5650 2025 5650
+Wire Wire Line
+	2025 5650 2025 6750
+Wire Wire Line
+	2025 6750 1525 6750
+Wire Wire Line
+	1525 6850 2025 6850
+Wire Wire Line
+	2025 6850 2025 6750
+Connection ~ 2025 6750
+Wire Wire Line
+	1525 5750 2075 5750
+Wire Wire Line
+	2075 5750 2075 6650
+Wire Wire Line
+	2075 6650 1525 6650
+NoConn ~ 1525 5850
+NoConn ~ 1525 6450
+$Comp
+L Device:R_Small R4
+U 1 1 5C0FDF68
+P 1700 7275
+F 0 "R4" V 1625 7150 50  0000 L CNN
+F 1 "5.1k" V 1625 7275 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 1700 7275 50  0001 C CNN
+F 3 "" H 1700 7275 50  0001 C CNN
+	1    1700 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5C0FE230
+P 1850 7275
+F 0 "R6" V 1775 7150 50  0000 L CNN
+F 1 "5.1k" V 1775 7275 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 1850 7275 50  0001 C CNN
+F 3 "" H 1850 7275 50  0001 C CNN
+	1    1850 7275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1525 6550 1700 6550
+Wire Wire Line
+	1700 6550 1700 7175
+Wire Wire Line
+	1525 5950 1850 5950
+Wire Wire Line
+	1850 5950 1850 7175
+Wire Wire Line
+	1525 6050 1700 6050
+Wire Wire Line
+	1700 6050 1700 6250
+Wire Wire Line
+	1700 6250 1525 6250
+Wire Wire Line
+	1525 6350 1650 6350
+Wire Wire Line
+	1650 6350 1650 6150
+Wire Wire Line
+	1650 6150 1525 6150
+Connection ~ 1700 6050
+Wire Wire Line
+	3100 6750 2975 6750
+Connection ~ 1650 6150
+Wire Wire Line
+	2375 6750 2225 6750
+Text GLabel 3500 6050 2    50   Input ~ 0
+D-
+Text GLabel 3500 6150 2    50   Input ~ 0
+D+
+$Comp
+L power:GND #PWR0101
+U 1 1 5C16DD83
+P 2300 6825
+F 0 "#PWR0101" H 2300 6575 50  0001 C CNN
+F 1 "GND" H 2305 6652 50  0000 C CNN
+F 2 "" H 2300 6825 50  0001 C CNN
+F 3 "" H 2300 6825 50  0001 C CNN
+	1    2300 6825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 6825 2300 6650
+Wire Wire Line
+	2300 6650 2375 6650
+$Comp
+L power:VCC #PWR0102
+U 1 1 5C17955C
+P 3200 6650
+F 0 "#PWR0102" H 3200 6500 50  0001 C CNN
+F 1 "VCC" H 3217 6823 50  0000 C CNN
+F 2 "" H 3200 6650 50  0001 C CNN
+F 3 "" H 3200 6650 50  0001 C CNN
+	1    3200 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 6650 2975 6650
+Wire Wire Line
+	2075 5750 2300 5750
+Connection ~ 2075 5750
+$Comp
+L power:VCC #PWR0103
+U 1 1 5C190C9D
+P 2300 5675
+F 0 "#PWR0103" H 2300 5525 50  0001 C CNN
+F 1 "VCC" H 2317 5848 50  0000 C CNN
+F 2 "" H 2300 5675 50  0001 C CNN
+F 3 "" H 2300 5675 50  0001 C CNN
+	1    2300 5675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5675 2300 5750
+Connection ~ 2300 5750
+Wire Wire Line
+	2300 5750 2500 5750
+Wire Wire Line
+	2700 5750 2925 5750
+Text GLabel 1875 2325 0    50   Input ~ 0
+D-
+Text GLabel 1875 2225 0    50   Input ~ 0
+D+
+Wire Wire Line
+	1700 7375 1850 7375
+$Comp
+L power:GND #PWR0104
+U 1 1 5C2D8977
+P 1850 7425
+F 0 "#PWR0104" H 1850 7175 50  0001 C CNN
+F 1 "GND" H 1855 7252 50  0000 C CNN
+F 2 "" H 1850 7425 50  0001 C CNN
+F 3 "" H 1850 7425 50  0001 C CNN
+	1    1850 7425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 7425 1850 7375
+Connection ~ 1850 7375
+Wire Wire Line
+	1650 6150 2225 6150
+Wire Wire Line
+	1700 6050 3100 6050
+Wire Wire Line
+	2225 6750 2225 6150
+Connection ~ 2225 6150
+Wire Wire Line
+	2225 6150 3300 6150
+Wire Wire Line
+	3100 6750 3100 6050
+Connection ~ 3100 6050
+Wire Wire Line
+	3100 6050 3300 6050
+$Comp
+L power:GND #PWR0105
+U 1 1 5C2F23CC
+P 2025 6850
+F 0 "#PWR0105" H 2025 6600 50  0001 C CNN
+F 1 "GND" H 2030 6677 50  0000 C CNN
+F 2 "" H 2025 6850 50  0001 C CNN
+F 3 "" H 2025 6850 50  0001 C CNN
+	1    2025 6850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2025 6850
+Wire Wire Line
+	2375 4850 2375 4525
+Wire Wire Line
+	2375 4525 2475 4525
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5C4ECFAF
+P 1500 900
+F 0 "SW1" H 1500 1185 50  0000 C CNN
+F 1 "SW_Push" H 1500 1094 50  0000 C CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H 1500 1100 50  0001 C CNN
+F 3 "" H 1500 1100 50  0001 C CNN
+	1    1500 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1875 1625 1575 1625
+Wire Wire Line
+	1575 1625 1575 1675
+$Comp
+L Keyboard_Parts_1:PRTR5V0U2X U2
+U 1 1 5C1416B5
+P 2675 6700
+F 0 "U2" H 2675 6997 60  0000 C CNN
+F 1 "PRTR5V0U2X" H 2675 6891 60  0000 C CNN
+F 2 "random-keyboard-parts:SOT143B" H 2675 6700 60  0001 C CNN
+F 3 "" H 2675 6700 60  0001 C CNN
+	1    2675 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2375 925  2475 925 
+Connection ~ 2375 925 
+Connection ~ 2475 925 
+Wire Wire Line
+	2475 925  2575 925 
+Connection ~ 2375 4525
+$Comp
+L power:+5V #PWR0106
+U 1 1 6082BD9F
+P 1550 2025
+F 0 "#PWR0106" H 1550 1875 50  0001 C CNN
+F 1 "+5V" H 1550 2165 50  0000 C CNN
+F 2 "" H 1550 2025 50  0001 C CNN
+F 3 "" H 1550 2025 50  0001 C CNN
+	1    1550 2025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1875 2025 1550 2025
+Wire Wire Line
+	1175 1525 1150 1525
+Wire Wire Line
+	1375 1525 1400 1525
+$Comp
+L Device:C_Small C7
+U 1 1 60850ABB
+P 1025 3425
+F 0 "C7" H 1035 3495 50  0000 L CNN
+F 1 "0.1u" H 1035 3345 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1025 3425 50  0001 C CNN
+F 3 "" H 1025 3425 50  0001 C CNN
+	1    1025 3425
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 3325 1025 3325
+Connection ~ 1250 3325
+Wire Wire Line
+	1025 3525 1250 3525
+Connection ~ 1250 3525
+NoConn ~ 1875 1825
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 608AE210
+P 6225 2475
+F 0 "MX3" H 6258 2698 60  0000 C CNN
+F 1 "MX-NoLED" H 6258 2624 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 5600 2450 60  0001 C CNN
+F 3 "" H 5600 2450 60  0001 C CNN
+	1    6225 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D3
+U 1 1 608AE216
+P 6175 2775
+F 0 "D3" V 6221 2695 50  0000 R CNN
+F 1 "1N4148" V 6130 2695 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6175 2600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6175 2775 50  0001 C CNN
+	1    6175 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX6
+U 1 1 608AE21C
+P 6925 2475
+F 0 "MX6" H 6958 2698 60  0000 C CNN
+F 1 "MX-NoLED" H 6958 2624 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 6300 2450 60  0001 C CNN
+F 3 "" H 6300 2450 60  0001 C CNN
+	1    6925 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D6
+U 1 1 608AE222
+P 6875 2775
+F 0 "D6" V 6921 2695 50  0000 R CNN
+F 1 "1N4148" V 6830 2695 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6875 2600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6875 2775 50  0001 C CNN
+	1    6875 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX9
+U 1 1 608AE228
+P 7600 2475
+F 0 "MX9" H 7633 2698 60  0000 C CNN
+F 1 "MX-NoLED" H 7633 2624 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 6975 2450 60  0001 C CNN
+F 3 "" H 6975 2450 60  0001 C CNN
+	1    7600 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D9
+U 1 1 608AE22E
+P 7550 2775
+F 0 "D9" V 7596 2695 50  0000 R CNN
+F 1 "1N4148" V 7505 2695 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7550 2600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7550 2775 50  0001 C CNN
+	1    7550 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX12
+U 1 1 608AE234
+P 8300 2475
+F 0 "MX12" H 8333 2698 60  0000 C CNN
+F 1 "MX-NoLED" H 8333 2624 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 7675 2450 60  0001 C CNN
+F 3 "" H 7675 2450 60  0001 C CNN
+	1    8300 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D12
+U 1 1 608AE23A
+P 8250 2775
+F 0 "D12" V 8296 2695 50  0000 R CNN
+F 1 "1N4148" V 8205 2695 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8250 2600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8250 2775 50  0001 C CNN
+	1    8250 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX15
+U 1 1 608AE240
+P 8950 2475
+F 0 "MX15" H 8983 2698 60  0000 C CNN
+F 1 "MX-NoLED" H 8983 2624 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 8325 2450 60  0001 C CNN
+F 3 "" H 8325 2450 60  0001 C CNN
+	1    8950 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D15
+U 1 1 608AE246
+P 8900 2775
+F 0 "D15" V 8946 2695 50  0000 R CNN
+F 1 "1N4148" V 8855 2695 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8900 2600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8900 2775 50  0001 C CNN
+	1    8900 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX18
+U 1 1 608AE24C
+P 9650 2475
+F 0 "MX18" H 9683 2698 60  0000 C CNN
+F 1 "MX-NoLED" H 9683 2624 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 9025 2450 60  0001 C CNN
+F 3 "" H 9025 2450 60  0001 C CNN
+	1    9650 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D18
+U 1 1 608AE252
+P 9600 2775
+F 0 "D18" V 9646 2695 50  0000 R CNN
+F 1 "1N4148" V 9555 2695 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9600 2600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9600 2775 50  0001 C CNN
+	1    9600 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 608B6857
+P 6200 3475
+F 0 "MX1" H 6233 3698 60  0000 C CNN
+F 1 "MX-NoLED" H 6233 3624 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 5575 3450 60  0001 C CNN
+F 3 "" H 5575 3450 60  0001 C CNN
+	1    6200 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 608B685D
+P 6150 3775
+F 0 "D1" V 6196 3695 50  0000 R CNN
+F 1 "1N4148" V 6105 3695 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 3600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6150 3775 50  0001 C CNN
+	1    6150 3775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 608B6863
+P 6900 3475
+F 0 "MX4" H 6933 3698 60  0000 C CNN
+F 1 "MX-NoLED" H 6933 3624 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 6275 3450 60  0001 C CNN
+F 3 "" H 6275 3450 60  0001 C CNN
+	1    6900 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D4
+U 1 1 608B6869
+P 6850 3775
+F 0 "D4" V 6896 3695 50  0000 R CNN
+F 1 "1N4148" V 6805 3695 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6850 3600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6850 3775 50  0001 C CNN
+	1    6850 3775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX7
+U 1 1 608B686F
+P 7575 3475
+F 0 "MX7" H 7608 3698 60  0000 C CNN
+F 1 "MX-NoLED" H 7608 3624 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 6950 3450 60  0001 C CNN
+F 3 "" H 6950 3450 60  0001 C CNN
+	1    7575 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D7
+U 1 1 608B6875
+P 7525 3775
+F 0 "D7" V 7571 3695 50  0000 R CNN
+F 1 "1N4148" V 7480 3695 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7525 3600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7525 3775 50  0001 C CNN
+	1    7525 3775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX10
+U 1 1 608B687B
+P 8275 3475
+F 0 "MX10" H 8308 3698 60  0000 C CNN
+F 1 "MX-NoLED" H 8308 3624 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 7650 3450 60  0001 C CNN
+F 3 "" H 7650 3450 60  0001 C CNN
+	1    8275 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D10
+U 1 1 608B6881
+P 8225 3775
+F 0 "D10" V 8271 3695 50  0000 R CNN
+F 1 "1N4148" V 8180 3695 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8225 3600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8225 3775 50  0001 C CNN
+	1    8225 3775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX13
+U 1 1 608B6887
+P 8925 3475
+F 0 "MX13" H 8958 3698 60  0000 C CNN
+F 1 "MX-NoLED" H 8958 3624 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 8300 3450 60  0001 C CNN
+F 3 "" H 8300 3450 60  0001 C CNN
+	1    8925 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D13
+U 1 1 608B688D
+P 8875 3775
+F 0 "D13" V 8921 3695 50  0000 R CNN
+F 1 "1N4148" V 8830 3695 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8875 3600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8875 3775 50  0001 C CNN
+	1    8875 3775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX16
+U 1 1 608B6893
+P 9625 3475
+F 0 "MX16" H 9658 3698 60  0000 C CNN
+F 1 "MX-NoLED" H 9658 3624 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 9000 3450 60  0001 C CNN
+F 3 "" H 9000 3450 60  0001 C CNN
+	1    9625 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D16
+U 1 1 608B6899
+P 9575 3775
+F 0 "D16" V 9621 3695 50  0000 R CNN
+F 1 "1N4148" V 9530 3695 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9575 3600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9575 3775 50  0001 C CNN
+	1    9575 3775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 6081D0BA
+P 2475 2725
+F 0 "U1" H 2475 836 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 2475 745 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2475 2725 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2475 2725 50  0001 C CNN
+	1    2475 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D17
+U 1 1 6089C0EB
+P 9600 1825
+F 0 "D17" V 9646 1745 50  0000 R CNN
+F 1 "1N4148" V 9555 1745 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9600 1650 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9600 1825 50  0001 C CNN
+	1    9600 1825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX17
+U 1 1 6089C0E5
+P 9650 1525
+F 0 "MX17" H 9683 1748 60  0000 C CNN
+F 1 "MX-NoLED" H 9683 1674 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 9025 1500 60  0001 C CNN
+F 3 "" H 9025 1500 60  0001 C CNN
+	1    9650 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D14
+U 1 1 6089C0DF
+P 8900 1825
+F 0 "D14" V 8946 1745 50  0000 R CNN
+F 1 "1N4148" V 8855 1745 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8900 1650 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8900 1825 50  0001 C CNN
+	1    8900 1825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX14
+U 1 1 6089C0D9
+P 8950 1525
+F 0 "MX14" H 8983 1748 60  0000 C CNN
+F 1 "MX-NoLED" H 8983 1674 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 8325 1500 60  0001 C CNN
+F 3 "" H 8325 1500 60  0001 C CNN
+	1    8950 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D11
+U 1 1 6089555E
+P 8250 1825
+F 0 "D11" V 8296 1745 50  0000 R CNN
+F 1 "1N4148" V 8205 1745 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8250 1650 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8250 1825 50  0001 C CNN
+	1    8250 1825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX11
+U 1 1 60895558
+P 8300 1525
+F 0 "MX11" H 8333 1748 60  0000 C CNN
+F 1 "MX-NoLED" H 8333 1674 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 7675 1500 60  0001 C CNN
+F 3 "" H 7675 1500 60  0001 C CNN
+	1    8300 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D8
+U 1 1 60895552
+P 7550 1825
+F 0 "D8" V 7596 1745 50  0000 R CNN
+F 1 "1N4148" V 7505 1745 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7550 1650 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7550 1825 50  0001 C CNN
+	1    7550 1825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX8
+U 1 1 6089554C
+P 7600 1525
+F 0 "MX8" H 7633 1748 60  0000 C CNN
+F 1 "MX-NoLED" H 7633 1674 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 6975 1500 60  0001 C CNN
+F 3 "" H 6975 1500 60  0001 C CNN
+	1    7600 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D5
+U 1 1 6088CF77
+P 6875 1825
+F 0 "D5" V 6921 1745 50  0000 R CNN
+F 1 "1N4148" V 6830 1745 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6875 1650 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6875 1825 50  0001 C CNN
+	1    6875 1825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 6088CF71
+P 6925 1525
+F 0 "MX5" H 6958 1748 60  0000 C CNN
+F 1 "MX-NoLED" H 6958 1674 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 6300 1500 60  0001 C CNN
+F 3 "" H 6300 1500 60  0001 C CNN
+	1    6925 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D2
+U 1 1 60889366
+P 6175 1825
+F 0 "D2" V 6221 1745 50  0000 R CNN
+F 1 "1N4148" V 6130 1745 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6175 1650 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6175 1825 50  0001 C CNN
+	1    6175 1825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 60887AA2
+P 6225 1525
+F 0 "MX2" H 6258 1748 60  0000 C CNN
+F 1 "MX-NoLED" H 6258 1674 20  0000 C CNN
+F 2 "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 5600 1500 60  0001 C CNN
+F 3 "" H 5600 1500 60  0001 C CNN
+	1    6225 1525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6175 1975 6175 2025
+Wire Wire Line
+	6175 2025 6875 2025
+Wire Wire Line
+	9600 2025 9600 1975
+Wire Wire Line
+	8900 1975 8900 2025
+Connection ~ 8900 2025
+Wire Wire Line
+	8900 2025 9600 2025
+Wire Wire Line
+	8250 1975 8250 2025
+Connection ~ 8250 2025
+Wire Wire Line
+	8250 2025 8900 2025
+Wire Wire Line
+	7550 1975 7550 2025
+Connection ~ 7550 2025
+Wire Wire Line
+	7550 2025 8250 2025
+Wire Wire Line
+	6875 1975 6875 2025
+Connection ~ 6875 2025
+Wire Wire Line
+	6875 2025 7550 2025
+Wire Wire Line
+	6175 2925 6175 3000
+Wire Wire Line
+	6175 3000 6875 3000
+Wire Wire Line
+	9600 3000 9600 2925
+Wire Wire Line
+	8900 2925 8900 3000
+Connection ~ 8900 3000
+Wire Wire Line
+	8900 3000 9600 3000
+Wire Wire Line
+	8250 2925 8250 3000
+Connection ~ 8250 3000
+Wire Wire Line
+	8250 3000 8900 3000
+Wire Wire Line
+	7550 2925 7550 3000
+Connection ~ 7550 3000
+Wire Wire Line
+	7550 3000 8250 3000
+Wire Wire Line
+	6875 2925 6875 3000
+Connection ~ 6875 3000
+Wire Wire Line
+	6875 3000 7550 3000
+Wire Wire Line
+	6150 3925 6150 4000
+Wire Wire Line
+	6150 4000 6850 4000
+Wire Wire Line
+	9575 4000 9575 3925
+Wire Wire Line
+	8875 3925 8875 4000
+Connection ~ 8875 4000
+Wire Wire Line
+	8875 4000 9575 4000
+Wire Wire Line
+	8225 3925 8225 4000
+Connection ~ 8225 4000
+Wire Wire Line
+	8225 4000 8875 4000
+Wire Wire Line
+	7525 3925 7525 4000
+Connection ~ 7525 4000
+Wire Wire Line
+	7525 4000 8225 4000
+Wire Wire Line
+	6850 3925 6850 4000
+Connection ~ 6850 4000
+Wire Wire Line
+	6850 4000 7525 4000
+Wire Wire Line
+	6350 3425 6600 3425
+Wire Wire Line
+	6600 3425 6600 2425
+Wire Wire Line
+	6375 1475 6600 1475
+Connection ~ 6600 1475
+Wire Wire Line
+	6600 1475 6600 1200
+Wire Wire Line
+	6375 2425 6600 2425
+Connection ~ 6600 2425
+Wire Wire Line
+	6600 2425 6600 1475
+Wire Wire Line
+	7050 3425 7300 3425
+Wire Wire Line
+	7300 3425 7300 2425
+Wire Wire Line
+	7075 1475 7300 1475
+Wire Wire Line
+	7100 2425 7300 2425
+Connection ~ 7300 2425
+Wire Wire Line
+	7300 2425 7300 1475
+Wire Wire Line
+	7725 3425 8000 3425
+Wire Wire Line
+	8000 3425 8000 2425
+Wire Wire Line
+	7750 1475 8000 1475
+Wire Wire Line
+	7750 2425 8000 2425
+Connection ~ 8000 2425
+Wire Wire Line
+	8000 2425 8000 1475
+Wire Wire Line
+	8425 3425 8675 3425
+Wire Wire Line
+	8675 3425 8675 2425
+Connection ~ 8675 2425
+Wire Wire Line
+	8675 2425 8675 1475
+Wire Wire Line
+	8450 1475 8675 1475
+Wire Wire Line
+	8450 2425 8675 2425
+Wire Wire Line
+	9075 3425 9375 3425
+Wire Wire Line
+	9375 3425 9375 2425
+Wire Wire Line
+	9100 1475 9375 1475
+Connection ~ 9375 2425
+Wire Wire Line
+	9375 2425 9375 1475
+Wire Wire Line
+	9100 2425 9375 2425
+Wire Wire Line
+	9775 3425 10075 3425
+Wire Wire Line
+	10075 3425 10075 2425
+Wire Wire Line
+	9800 1475 10075 1475
+Wire Wire Line
+	9800 2425 10075 2425
+Connection ~ 10075 2425
+Wire Wire Line
+	10075 2425 10075 1475
+Text GLabel 5975 2025 0    50   Input ~ 0
+R1
+Text GLabel 5975 3000 0    50   Input ~ 0
+R2
+Text GLabel 5950 4000 0    50   Input ~ 0
+R3
+Connection ~ 6150 4000
+Wire Wire Line
+	5950 4000 6150 4000
+Wire Wire Line
+	5975 3000 6175 3000
+Connection ~ 6175 3000
+Wire Wire Line
+	5975 2025 6175 2025
+Connection ~ 6175 2025
+Text GLabel 6600 1200 0    50   Input ~ 0
+C1
+Text GLabel 7300 1200 0    50   Input ~ 0
+C2
+Text GLabel 8000 1200 0    50   Input ~ 0
+C3
+Text GLabel 8675 1200 0    50   Input ~ 0
+C4
+Text GLabel 9375 1200 0    50   Input ~ 0
+C5
+Text GLabel 10075 1200 0    50   Input ~ 0
+C6
+Wire Wire Line
+	10075 1200 10075 1475
+Connection ~ 10075 1475
+Wire Wire Line
+	9375 1200 9375 1475
+Connection ~ 9375 1475
+Wire Wire Line
+	7300 1200 7300 1475
+Connection ~ 7300 1475
+Wire Wire Line
+	8000 1200 8000 1475
+Connection ~ 8000 1475
+Wire Wire Line
+	8675 1200 8675 1475
+Connection ~ 8675 1475
+$EndSCHEMATC
