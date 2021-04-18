@@ -222,21 +222,21 @@ Text GLabel 6375 2425 2    50   Input ~ 0
 SW5
 Text GLabel 6375 1475 2    50   Input ~ 0
 SW1
-Text GLabel 4125 2700 2    50   Input ~ 0
+Text GLabel 2725 2700 0    50   Input ~ 0
 SW5
-Text GLabel 4125 2300 2    50   Input ~ 0
+Text GLabel 4125 2700 2    50   Input ~ 0
 SW1
-Text GLabel 4125 2400 2    50   Input ~ 0
-SW2
-Text GLabel 4125 2800 2    50   Input ~ 0
-SW6
-Text GLabel 4125 2500 2    50   Input ~ 0
-SW3
-Text GLabel 4125 2900 2    50   Input ~ 0
-SW7
-Text GLabel 4125 2600 2    50   Input ~ 0
-SW4
 Text GLabel 4125 3000 2    50   Input ~ 0
+SW2
+Text GLabel 2725 2800 0    50   Input ~ 0
+SW6
+Text GLabel 4125 2900 2    50   Input ~ 0
+SW3
+Text GLabel 2725 2900 0    50   Input ~ 0
+SW7
+Text GLabel 4125 2800 2    50   Input ~ 0
+SW4
+Text GLabel 2725 3000 0    50   Input ~ 0
 SW8
 $Comp
 L power:GND #PWR02
